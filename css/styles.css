@@ -87,3 +87,36 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+
+.col-sm-4 {
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .navigation-links {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  p {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
