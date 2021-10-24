@@ -102,8 +102,14 @@ p {
   text-decoration: none;
 }
 
-.col-sm-4 {
+.col-sm-6 {
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.shecodes {
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
