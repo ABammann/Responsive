@@ -84,7 +84,22 @@ h6 {
   margin: 10px;
 }
 
-p {
+p,
+article {
+  background: var(--secondary-color);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 800px;
+}
+
+article {
+  text-align: left;
+}
+
+.information {
   background: var(--secondary-color);
   padding: 15px;
   border-radius: 10px;
@@ -112,6 +127,37 @@ p {
   margin-bottom: 20px;
 }
 
+.bi {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bi-instagram {
+  background: #db7ccb;
+  color: white;
+}
+
+.bi-facebook {
+  background: #292df1;
+  color: white;
+}
+
+.bi-linkedin {
+  background: #6061bb;
+  color: white;
+}
+
+.instagram {
+  color: #db7ccb;
+}
+
+.linkedin {
+  color: white;
+}
+
 @media (max-width: 576px) {
   h2 {
     font-size: 30px;
@@ -129,12 +175,19 @@ p {
     margin-top: 20px;
     justify-content: center;
     margin-bottom: 20px;
+    min-width: 55px;
   }
   p {
     text-align: center;
   }
 
   .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .secondary-link {
     display: block;
     text-align: center;
     margin: 0 20px;
